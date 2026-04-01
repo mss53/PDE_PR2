@@ -253,6 +253,8 @@ models:
 ---
 <img width="974" height="531" alt="image" src="https://github.com/user-attachments/assets/182ad679-4f9e-43b2-80bc-a9d0c27eb903" />
 
+<img width="974" height="520" alt="image" src="https://github.com/user-attachments/assets/24a5e90f-c3c6-4caa-9043-c59fb62c0a14" />
+
 ## Выводы
 
 1. **Использование dbt для реализации DWH** существенно упрощает разработку по сравнению с написанием отдельных DDL/DML‑скриптов:

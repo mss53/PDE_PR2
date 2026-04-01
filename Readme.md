@@ -19,10 +19,6 @@
   - измерения + `stg_orders` → факт `sales_fact`  
   - `sales_fact` + `product_dim` → витрина `mart_top_unprofitable_products` (вариант 19)
 
-**Скриншот Lineage Graph (dbt docs):**  
-_Вставить сюда скриншот, например `images/lineage_graph_student_dwh.png`._
-
----
 
 ## Ключевые фрагменты кода
 
@@ -228,7 +224,10 @@ models:
   - все тесты `unique`, `not_null`, `relationships` прошли без ошибок.
 
 **Скриншот терминала с `dbt run` и `dbt test`:**  
-_Вставить сюда скрин, например `images/dbt_run_test_student_dwh.png`._
+<img width="974" height="260" alt="image" src="https://github.com/user-attachments/assets/645cd8a4-c412-4cfe-924c-1ab151f88b24" />
+
+<img width="974" height="471" alt="image" src="https://github.com/user-attachments/assets/55276572-85e2-4f30-aa63-676528f20261" />
+
 
 ### 2. Результаты витрины `mart_top_unprofitable_products`
 
@@ -249,10 +248,10 @@ _Вставить сюда скрин, например `images/dbt_run_test_stu
 - Для всех товаров `total_profit < 0`, что соответствует постановке задачи.
 - Можно быстро увидеть, какие товары приносят наибольшие убытки и потенциально требуют изменения ценообразования/скидок.
 
-**Скриншот данных витрины:**  
-_Вставить сюда скрин из DBeaver или Jupyter, например `images/mart_top_unprofitable_products.png`._
+<img width="974" height="491" alt="image" src="https://github.com/user-attachments/assets/bbfb0631-f323-4970-ba6b-b4bc54c4dc5d" />
 
 ---
+<img width="974" height="531" alt="image" src="https://github.com/user-attachments/assets/182ad679-4f9e-43b2-80bc-a9d0c27eb903" />
 
 ## Выводы
 
